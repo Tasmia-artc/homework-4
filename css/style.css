@@ -1,0 +1,426 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.main-box{ 
+   max-width:1320px;
+   display: flex;
+   column-gap: 40px;
+   margin: 20px;
+   justify-content: center;
+}
+.main-box .box{
+    height:100px;
+    width:150px;
+    background: red;
+    position: relative;
+}
+.main-box .box .box-1{
+    height:34px;
+    width:150px;
+    background-color: white;
+    position: absolute;
+    margin-top:33px;
+}
+.main-box .parent{
+    height: 100px;
+    width: 150px;
+    background:rgb(17, 160, 216);
+    position: relative;
+}
+.main-box .parent .parent-box{
+    height: 70px;
+    width:70px;
+    background:rgb(241, 241, 69);
+    position: absolute;
+    border-radius: 50%;
+    top:15px;
+    left:20px;
+}
+.main-box .flag-box{
+    height: 100px;
+    width:150px;
+    background: brown;
+    position:relative;
+} 
+.main-box .flag-box img{
+    height: 70px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+}
+.main-box .barbados-flag{
+    height: 100px;
+    width: 150px;
+    background: rgb(11, 87, 149);
+    position: relative;
+}
+.main-box .barbados-flag-box{
+    height: 100px;
+    width: 60px;
+    background: rgb(218, 171, 110);
+    position: absolute;
+    margin-left: 45px;
+}
+.main-box .barbados-flag-box img{
+    height: 90px;
+    width:50px;
+    top:50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.main-box .afganistan{
+    height: 100px;
+    width: 150px;
+    background: white;
+    position: relative;
+    border: 1px solid rgb(234, 232, 232); 
+}
+.main-box .afganistan img{
+    height: 40px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    right: 50%;
+    bottom:50%;
+    transform: translate(-50%,-50%);
+}
+.main-box .section{
+    height: 100px;
+    width: 150px;
+    background:brown;
+    position: relative;
+}
+.main-box .section .section-part{
+    height: 34px;
+    width: 100%;
+    background: white;
+    position: absolute;
+    margin-top:33px;
+}
+.main-box .section .section-part img{
+    position: absolute;
+    height: 36px;
+    margin-left: 30px;
+}
+.main-box .section .section-part-one{
+    height:33px;
+    width: 100%;
+    background: black;
+    margin-top:67px;
+    position: absolute;
+}
+.flex-div{
+    max-width: 1320px;
+    display: flex;
+   column-gap: 40px;
+   margin: 20px;
+   justify-content: center;
+}
+.flex-div .maldives{
+    height:100px;
+    width: 150px;
+    background: red;
+    position: relative;
+}
+.flex-div .maldives .maldives-part{
+    height: 60px;
+    width: 110px;
+    background:rgb(12, 106, 12);
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top:50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+}
+.flex-div .maldives .maldives-part img{
+    height:50px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top:50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+}
+.flex-div .benin{
+    height: 100px;
+    width:150px;
+    background: rgb(1, 147, 1);
+    position:relative;
+}
+.flex-div .benin-part-one{
+    height:50%;
+    width:60%;
+    background:yellow;
+    position: absolute;
+    right:0;
+}
+.flex-div .benin-part-two{
+    height: 50%;
+    width: 60%;
+    background: rgb(238, 53, 53);
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+.flex-div .finland-flag{
+    height: 100px;
+    width: 150px;
+    background: white;
+    position: relative;
+    border: 1px solid rgb(243, 241, 241);
+}
+.flex-div .finland-flag-part{
+    height: 100px;
+    width: 30px;
+    background:rgb(37, 132, 211);
+    position:absolute;
+    left: 40px;
+}
+.flex-div .finland-part{
+    height: 30px;
+    width:100%;
+    background:rgb(37, 132, 211);
+    position:absolute;
+    top:35px;
+}
+.flex-div .saudi-flag{
+    height:100px;
+    width: 150px;
+    background: rgb(14, 149, 14);
+    position:relative;
+}
+.flex-div .saudi-flag img{
+    position: absolute;
+    height: 70px;
+    top:50%;
+    left:50%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+}
+.flex-div .sudan-part{
+    height:100px;
+    width:150px;
+    background: brown;
+    position:relative;
+}
+.flex-div .sudan-part .sudan-part-one{
+    height:33px;
+    width:150px;
+    background:white;
+    position:absolute;
+    top:33px;
+}
+.flex-div .sudan-part .sudan-part-two{
+    height:37px;
+    width:150px;
+    background:black;
+    position:absolute;
+    top:66px;
+}
+.flex-div .sudan-part .sudan-part-three{
+   clip-path: polygon(48% 51%, 0 0, 0 100%);
+   background:green;
+   height: 103px;
+   width: 150px;
+   position: absolute;
+   left:0;
+   top:0;
+   
+}
+.flex-div .belgium{
+    height: 100px;
+    width:150px;
+    background: black;
+    position:relative;
+}
+.flex-div .belgium-box{
+    height: 100px;
+    width: 50px;
+    position:absolute;
+    background: rgb(254, 254, 0);
+    left:50px;
+}
+.flex-div .belgium-box-one{
+    height:100px;
+    width: 50px;
+    background: red;
+    position:absolute;
+    left:100px;
+}
+.flex-box{
+    max-width: 1320px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    column-gap:40px;
+}
+.flex-box .bootswana{
+    height: 100px;
+    width: 150px;
+    background: rgb(67, 161, 238);
+    position: relative;
+}
+
+.flex-box .child-part{
+    height: 40px;
+    width: 150px;
+    background: white;
+    position:absolute;
+    top:50%;
+    transform: translatey(-50%);
+}
+.flex-box .child-part-two{
+    height:20px;
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 10px;
+}
+.flex-box .flag-section{
+    height: 100px;
+    width: 150px;
+    background: rgb(128, 203, 232);
+    position:relative;
+}
+.flex-box .flag-section img{
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.flex-box .tunisia-flag{
+    height: 100px;
+    width: 150px;
+    background-color: rgb(176, 22, 22);
+    position: relative;
+}
+.flex-box .tunisia-circle{
+    height: 70px;
+    width: 70px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    bottom: 50%;
+    left:50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+.flex-box .tunisia-circle img{
+    height: 50px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.flex-box .ukraine{
+    height: 100px;
+    width: 150px;
+    background:rgb(32, 82, 231);
+    position:relative;
+}
+.flex-box .ukraine-part{
+    height: 50px;
+    width:100%;
+    background: rgb(216, 203, 16);
+    position: absolute;
+    top:50%;
+}
+.flex-box .latvia-flag{
+    height: 100px;
+    width: 150px;
+    background: rgb(150, 19, 19);
+    position: relative;
+}
+.flex-box .latvia-child-part{
+    height:20px;
+    width: 150px;
+    background: white;
+    position:absolute;
+    top:40px;
+}
+.flex-box .armenia{
+    height: 100px;
+    width: 150px;
+    background: rgb(198, 1, 1);
+    position: relative;
+}
+.flex-box .armenia .blue-part{
+    height: 33px;
+    width: 100%;
+    background: rgb(46, 71, 147);
+    position: absolute;
+    top:34px;
+}
+.flex-box .armenia .last-part{
+    height: 33px;
+    width: 100%;
+    background: burlywood;
+    position: absolute;
+    bottom: 0;
+}
+.last-part{
+    max-width: 1320px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    column-gap:40px;
+    
+ }
+ .last-part .cote-part{
+    height: 100px;
+    width: 150px;
+    background:rgb(222, 161, 82);
+    position: relative;
+ }
+ .last-part .cote-part-white{
+    height: 100px;
+    width:50px;
+    background: white;
+    position: absolute;
+    left: 50px;
+ }
+  .last-part .cote-part-green{
+    height: 100px;
+    width:50px;
+    background: rgb(49, 154, 49);
+    position:absolute;
+    left: 100px;
+}
+.last-part .egypt-flag{
+    height:100px;
+    width:150px;
+    background: rgb(180, 38, 38);
+    position: relative;
+}
+.last-part .egypt-part{
+    height: 34px;
+    width:100%;
+    background:white;
+    position:absolute;
+    top:33px;
+}
+.last-part .part-one{
+    height: 34px;
+    width: 100%;
+    background:black;
+    position: absolute;
+    top:67px;
+}
+.last-part .egypt-part img{
+    height:32px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
